@@ -1,0 +1,62 @@
+.selectionbox {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 400px;
+  padding: 70px 40px;
+  box-sizing: border-box;
+  background: #ffffffd1;
+  border-radius: 30px;
+}
+h2 {
+  margin: 0;
+  padding: 0 0 26px;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.selectionbox select {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.selectionbox select {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+}
+
+.selectionbox label {
+  color: #000;
+}
+.selectionbox input[type="submit"] {
+  border: none;
+  outline: none;
+  padding: 13px;
+  /* color: #eee; */
+  font-size: 16px;
+  background-color: #ff8c00;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 12px 0 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.selectionbox input[type="submit"]:hover {
+  background-color: #ff9719;
+  color: #fff;
+}
+
+.selectionbox a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}

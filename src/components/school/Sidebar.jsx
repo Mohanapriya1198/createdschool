@@ -8,6 +8,10 @@ const routes = [
     path: "/",
     name: "Createschool",
   },
+  {
+    path: "/class",
+    name: "Classform",
+  },
 ];
 
 const Sidebar = ({ children }) => {
