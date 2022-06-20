@@ -26,7 +26,7 @@ const Classform = () => {
 
         <label for="std">Select a Section</label>
 
-        <select name="std" id="std">
+        <select name="section" id="section">
           <option value="">Section</option>
           <option value="a">A</option>
           <option value="b">B</option>
