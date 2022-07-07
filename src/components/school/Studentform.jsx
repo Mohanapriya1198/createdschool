@@ -5,7 +5,7 @@ const Studentform = () => {
     <div className="container">
       <div className="form">
         <div className="btn">
-          <button className="signUpBtn">Student Form</button>
+          <button className="signUpBtn">STUDENT FORM</button>
         </div>
         <form className="signUp" action="" method="get">
           <div className="formGroup">
@@ -35,7 +35,7 @@ const Studentform = () => {
           </div>
 
           <div className="formGroup">
-            <select name="standard" id="standard">
+            <select type="select" name="standard" id="standard">
               <option value="0">Standard</option>
               <option value="1">I Std</option>
               <option value="2">II Std</option>
@@ -51,7 +51,7 @@ const Studentform = () => {
               <option value="12">XII Std</option>
             </select>
 
-            <select name="section" id="section">
+            <select type="select" name="section" id="section">
               <option value="">Section</option>
               <option value="a">A</option>
               <option value="b">B</option>
@@ -114,10 +114,7 @@ const Studentform = () => {
               autocomplete="off"
             />
           </div>
-          <div className="checkBox">
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            <span className="text">I agree with term & conditions</span>
-          </div>
+
           <div className="formGroup">
             <button type="button" className="btn2">
               Submit

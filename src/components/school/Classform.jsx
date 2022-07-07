@@ -7,7 +7,6 @@ const Classform = () => {
       <h2>Class Form</h2>
       <form>
         <label for="standard">Select a Standard</label>
-
         <select name="standard" id="standard">
           <option value="0">Standard</option>
           <option value="1">I Std</option>

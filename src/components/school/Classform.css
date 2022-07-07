@@ -5,10 +5,11 @@
   transform: translate(-50%, -50%);
   width: 300px;
   height: 400px;
-  padding: 70px 40px;
+  padding: 40px 40px;
   box-sizing: border-box;
   background: #ffffffd1;
   border-radius: 30px;
+  box-shadow: 0 5px 30px black;
 }
 h2 {
   margin: 0;
@@ -24,30 +25,32 @@ h2 {
 }
 
 .selectionbox select {
-  border: none;
-  border-bottom: 1px solid #000;
+  border: 1px solid darkgrey;
   background: transparent;
   outline: none;
   height: 40px;
   color: #000;
   font-size: 16px;
+  border-radius: 6px;
+  margin-top: 12px;
 }
 
 .selectionbox label {
-  color: #000;
+  color: black;
 }
+
 .selectionbox input[type="submit"] {
   border: none;
   outline: none;
   padding: 13px;
-
   font-size: 16px;
   background-color: #ff8c00;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 20px;
   margin: 12px 0 18px;
   font-weight: bold;
   text-transform: uppercase;
+  width: 100%;
 }
 .selectionbox input[type="submit"]:hover {
   background-color: #ff9719;
@@ -59,4 +62,7 @@ h2 {
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
+}
+.selectionbox select:hover {
+  border-bottom: 2px solid rgb(91, 243, 131);
 }

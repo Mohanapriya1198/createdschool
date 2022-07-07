@@ -8,11 +8,11 @@
   display: flex;
   justify-content: center;
   align-items: center !important;
-  height: 130vh;
+  height: 140vh;
 }
-.form {
+.forms {
   width: 550px;
-  height: 750px;
+  height: 858px;
   position: absolute;
   background-color: white;
   border-radius: 10px;
@@ -21,67 +21,48 @@
   transform: translate(-50%);
   box-sizing: border-box;
   box-shadow: 0 5px 30px black;
+  margin-top: 95px;
 }
 .btn button {
   padding: 3px;
-  margin: 30px 0px 40px 30px;
+  margin: 10px 0px 10px 30px;
   border-style: none;
   background-color: transparent;
   color: black;
   font-size: 18px;
   font-weight: 550;
 }
-.formGroup {
-  display: flex;
-  justify-content: center;
+.detailForm {
+  margin-left: 60px;
 }
-.formGroup input[type="text"],
-[type="date"],
-[type="digit"] {
-  width: 80%;
-  border: 1px solid darkgrey;
-  padding: 10px;
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: normal;
-  background-color: transparent;
-  color: black;
-  height: 30px;
-  border-radius: 6px;
+.detailForm p {
+  margin-bottom: 10px;
+  padding: 0;
+  font-weight: 400;
 }
-.formGroup input[type="date"] {
-  border: 1px solid darkgrey;
-  font-weight: normal;
+.detailForm input {
+  width: 90%;
+  margin-bottom: 5px;
 }
-.formGroup input[type="digit"] {
-  border: 1px solid darkgrey;
-  font-weight: normal;
-}
-.formGroup select {
+.detailForm input[type="text"],
+input[type="digit"],
+input[type="date"] {
   border: 1px solid darkgrey;
   background: transparent;
   outline: none;
-  height: 30px;
+  height: 28px;
   color: black;
-  font-size: 16px;
-  margin-right: 25%;
-  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: normal;
   border-radius: 6px;
 }
-.formGroup input:focus {
+.detailForm input:focus {
   outline: none !important;
   border-bottom: 2px solid rgb(91, 243, 131);
   font-size: 17px;
   font-weight: bold;
 }
-.formGroup ::placeholder {
-  color: black;
-}
 
-.text {
-  color: black;
-  font-size: 13px;
-}
 .btn2 {
   padding: 10px;
   width: 150px;
@@ -96,8 +77,5 @@
   background-color: rgba(10, 136, 43, 0.5);
 }
 .btn button:hover {
-  border-bottom: 2px solid rgb(91, 243, 131);
-}
-.formGroup select:hover {
   border-bottom: 2px solid rgb(91, 243, 131);
 }

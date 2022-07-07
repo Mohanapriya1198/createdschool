@@ -16,6 +16,10 @@ const routes = [
     path: "/student",
     name: "Studentform",
   },
+  {
+    path: "/teacher",
+    name: "Teacherform",
+  },
 ];
 
 const Sidebar = ({ children }) => {
